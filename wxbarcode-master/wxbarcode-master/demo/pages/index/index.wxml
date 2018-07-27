@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='avator'>
+    <image class='avator-cont'src='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqG3dBQs7fghmBWzzlvfgIU19RjyAx5CFVrMk3jBibjVKq5MaqQD1AGvFJC2dkMTic1Eo21SWV22ydw/132'></image>
+  </view>
+  <view class='title'>
+    <text>需要获取您的微信头像和昵称</text>
+  </view>
+  <view class='main'>
+    <view class='btn-box'>
+      <button wx:if="{{canIUse}}" class='btn-btn' open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">微信授权</button>
+    </view>
+  </view>
+</view>

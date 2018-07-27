@@ -1,0 +1,3 @@
+<view class='userphone-container'>
+  <button class='btn-phone' open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">快速注册</button>
+</view>

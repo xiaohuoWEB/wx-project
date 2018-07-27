@@ -1,0 +1,20 @@
+page {
+  width: 100%;
+  height: 100%;
+  background: url('http://bpic.588ku.com/back_pic/05/62/48/425b5310a670340.jpg!r650/fw/800') no-repeat center top;
+  background-size: cover;
+}
+.userphone-container {
+  display: flex;
+  justify-content:space-between;
+  padding:500rpx 0;
+  box-sizing:border-box;
+}
+.userphone-container .btn-phone {
+  width: 76%;
+  color: #fff;
+  background:#439057;
+  font-size:18px;
+  box-sizing:border-box;
+  border-radius: 0;
+}
